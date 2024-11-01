@@ -1,0 +1,61 @@
+#wp-cron-pixie .inside {
+	padding: 0;
+}
+
+.cron-pixie-content {
+	padding: 0 12px 12px 12px;
+}
+
+.cron-pixie-schedule-display {
+	font-weight: bold;
+}
+
+.cron-pixie-events {
+	padding-left: 1em;
+}
+
+.cron-pixie-event-run:hover {
+	color: darkgreen;
+	cursor: pointer;
+}
+
+.cron-pixie-event-timestamp {
+	clear: both;
+	margin-left: 1em;
+	color: grey;
+}
+
+.cron-pixie-event-empty {
+	color: grey;
+}
+
+.cron-pixie-settings {
+	border-top: 1px solid #eee;
+	padding: 8px 12px 8px 12px;
+}
+
+.cron-pixie-settings label {
+	margin-right: 1em;
+}
+
+.cron-pixie-settings #cron-pixie-refresh-now {
+	float: right;
+}
+
+.cron-pixie-settings #cron-pixie-refresh-now.refreshing {
+	-webkit-animation: spin 1s linear infinite;
+	-moz-animation: spin 1s linear infinite;
+	animation: spin 1s linear infinite;
+}
+
+@-moz-keyframes spin {
+	100% { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
